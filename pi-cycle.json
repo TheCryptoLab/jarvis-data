@@ -1,0 +1,13 @@
+{
+  "indicator": "Pi Cycle Top",
+  "generated_utc": "2026-08-21T19:12:18+00:00",
+  "source": "Binance BTCUSDT daily closes",
+  "spot_usd": 77135.03,
+  "ma_111": 67616.88,
+  "ma_350_x2": 164488.3,
+  "gap_pct_below_trigger": 58.89,
+  "crossed": false,
+  "signal": "no signal - 111DMA is below 350DMA x2",
+  "candles_used": 400,
+  "note": "Heuristic only. It has marked three cycle tops (2013, 2017, 2021); three occurrences is not a law. Report the two levels and the gap. Never predict a date from it."
+}
