@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-08-21T19:12:23+00:00",
-  "btc_usd": 77111.64,
+  "generated_utc": "2026-08-21T19:12:53+00:00",
+  "btc_usd": 77124.65,
   "pi_cycle": {
-    "ma_111": 67560.67,
-    "ma_350_x2": 164434.49,
+    "ma_111": 67560.78,
+    "ma_350_x2": 164434.57,
     "gap_pct_below_trigger": 58.91,
     "crossed": false
   },
@@ -116,7 +116,7 @@
     },
     {
       "name": "Mayer Multiple",
-      "value": 1.118,
+      "value": 1.1182,
       "as_of": "2026-08-21",
       "percentile_4y": 56.9,
       "hot": false,
@@ -213,17 +213,17 @@
         0.9369,
         1.0043,
         1.0584,
-        1.118
+        1.1182
       ],
       "note": "price / 200DMA. Conventional 2.4 threshold missed both 2021 peaks; 49% precision."
     },
     {
       "name": "2Y MA Multiplier",
-      "value": 0.176,
+      "value": 0.1761,
       "as_of": "2026-08-21",
       "percentile_4y": 35.3,
       "hot": false,
-      "change_7d_pct": 22.3,
+      "change_7d_pct": 22.4,
       "change_30d_pct": 16.5,
       "direction_30d": "rising",
       "spark_90d": [
@@ -316,7 +316,7 @@
         0.1478,
         0.1583,
         0.1667,
-        0.176
+        0.1761
       ],
       "note": "price / (730DMA x5). Never reached 1.0 in all of 2021."
     },
