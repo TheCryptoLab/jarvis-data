@@ -1,27 +1,26 @@
 {
-  "generated_utc": "2026-10-22T05:45:09+00:00",
-  "btc_usd": 82704.95,
+  "generated_utc": "2026-10-23T05:45:08+00:00",
+  "btc_usd": 81695.56,
   "pi_cycle": {
-    "ma_111": 73828.83,
-    "ma_350_x2": 153113.09,
-    "gap_pct_below_trigger": 51.78,
+    "ma_111": 73983.97,
+    "ma_350_x2": 152981.84,
+    "gap_pct_below_trigger": 51.64,
     "crossed": false
   },
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "percentile_window_days": 1460,
   "hot_percentile": 90,
   "gauges": [
     {
       "name": "Pi Cycle ratio",
-      "value": 0.4822,
-      "as_of": "2026-10-22",
-      "percentile_4y": 29.6,
+      "value": 0.4836,
+      "as_of": "2026-10-23",
+      "percentile_4y": 29.7,
       "hot": false,
-      "change_7d_pct": 2.6,
-      "change_30d_pct": 11.6,
+      "change_7d_pct": 2.5,
+      "change_30d_pct": 11.5,
       "direction_30d": "rising",
       "spark_90d": [
-        0.4073,
         0.4079,
         0.4082,
         0.4086,
@@ -110,21 +109,21 @@
         0.4773,
         0.479,
         0.4807,
-        0.4822
+        0.4821,
+        0.4836
       ],
       "note": "111DMA / (350DMA x2). 1.00 is the cross. One out-of-sample success (2021)."
     },
     {
       "name": "Mayer Multiple",
-      "value": 1.136,
-      "as_of": "2026-10-22",
-      "percentile_4y": 57.6,
+      "value": 1.1213,
+      "as_of": "2026-10-23",
+      "percentile_4y": 54.2,
       "hot": false,
-      "change_7d_pct": -0.0,
-      "change_30d_pct": -6.9,
+      "change_7d_pct": -0.4,
+      "change_30d_pct": -6.0,
       "direction_30d": "falling",
       "spark_90d": [
-        0.8899,
         0.9058,
         0.8847,
         0.8885,
@@ -213,21 +212,21 @@
         1.1277,
         1.1417,
         1.1552,
-        1.136
+        1.117,
+        1.1213
       ],
       "note": "price / 200DMA. Conventional 2.4 threshold missed both 2021 peaks; 49% precision."
     },
     {
       "name": "2Y MA Multiplier",
-      "value": 0.1853,
-      "as_of": "2026-10-22",
-      "percentile_4y": 39.4,
+      "value": 0.183,
+      "as_of": "2026-10-23",
+      "percentile_4y": 37.5,
       "hot": false,
-      "change_7d_pct": 0.5,
-      "change_30d_pct": -4.9,
+      "change_7d_pct": 0.1,
+      "change_30d_pct": -4.0,
       "direction_30d": "falling",
       "spark_90d": [
-        0.1471,
         0.1494,
         0.1457,
         0.146,
@@ -316,7 +315,8 @@
         0.1835,
         0.186,
         0.1883,
-        0.1853
+        0.1822,
+        0.183
       ],
       "note": "price / (730DMA x5). Never reached 1.0 in all of 2021."
     },
