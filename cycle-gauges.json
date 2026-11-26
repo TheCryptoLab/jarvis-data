@@ -1,27 +1,26 @@
 {
-  "generated_utc": "2026-11-25T05:45:09+00:00",
-  "btc_usd": 58939.32,
+  "generated_utc": "2026-11-26T05:45:09+00:00",
+  "btc_usd": 60808.68,
   "pi_cycle": {
-    "ma_111": 76152.92,
-    "ma_350_x2": 148969.92,
-    "gap_pct_below_trigger": 48.88,
+    "ma_111": 76129.26,
+    "ma_350_x2": 148796.89,
+    "gap_pct_below_trigger": 48.84,
     "crossed": false
   },
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "percentile_window_days": 1460,
   "hot_percentile": 90,
   "gauges": [
     {
       "name": "Pi Cycle ratio",
-      "value": 0.5112,
-      "as_of": "2026-11-25",
+      "value": 0.5116,
+      "as_of": "2026-11-26",
       "percentile_4y": 32.5,
       "hot": false,
       "change_7d_pct": 0.5,
-      "change_30d_pct": 4.8,
+      "change_30d_pct": 4.6,
       "direction_30d": "rising",
       "spark_90d": [
-        0.4137,
         0.414,
         0.4144,
         0.4148,
@@ -110,21 +109,21 @@
         0.5101,
         0.5105,
         0.5109,
-        0.5112
+        0.5113,
+        0.5116
       ],
       "note": "111DMA / (350DMA x2). 1.00 is the cross. One out-of-sample success (2021)."
     },
     {
       "name": "Mayer Multiple",
-      "value": 0.8184,
-      "as_of": "2026-11-25",
-      "percentile_4y": 9.2,
+      "value": 0.8455,
+      "as_of": "2026-11-26",
+      "percentile_4y": 13.0,
       "hot": false,
-      "change_7d_pct": -5.5,
-      "change_30d_pct": -25.3,
+      "change_7d_pct": -0.8,
+      "change_30d_pct": -23.6,
       "direction_30d": "falling",
       "spark_90d": [
-        1.1237,
         1.1287,
         1.1202,
         1.1317,
@@ -213,21 +212,21 @@
         0.8457,
         0.8474,
         0.8283,
-        0.8184
+        0.8383,
+        0.8455
       ],
       "note": "price / 200DMA. Conventional 2.4 threshold missed both 2021 peaks; 49% precision."
     },
     {
       "name": "2Y MA Multiplier",
-      "value": 0.1327,
-      "as_of": "2026-11-25",
-      "percentile_4y": 7.1,
+      "value": 0.137,
+      "as_of": "2026-11-26",
+      "percentile_4y": 7.8,
       "hot": false,
-      "change_7d_pct": -6.0,
-      "change_30d_pct": -25.9,
+      "change_7d_pct": -1.4,
+      "change_30d_pct": -24.3,
       "direction_30d": "falling",
       "spark_90d": [
-        0.1774,
         0.1782,
         0.177,
         0.1789,
@@ -316,21 +315,21 @@
         0.1375,
         0.1377,
         0.1344,
-        0.1327
+        0.136,
+        0.137
       ],
       "note": "price / (730DMA x5). Never reached 1.0 in all of 2021."
     },
     {
       "name": "MVRV",
-      "value": 1.126,
-      "as_of": "2026-11-24",
-      "percentile_4y": 4.9,
+      "value": 1.1361,
+      "as_of": "2026-11-25",
+      "percentile_4y": 5.5,
       "hot": false,
-      "change_7d_pct": -7.1,
-      "change_30d_pct": -23.9,
+      "change_7d_pct": -3.4,
+      "change_30d_pct": -23.2,
       "direction_30d": "falling",
       "spark_90d": [
-        1.5141,
         1.4651,
         1.475,
         1.4644,
@@ -419,7 +418,8 @@
         1.1299,
         1.1484,
         1.1524,
-        1.126
+        1.126,
+        1.1361
       ],
       "note": "market cap / realised cap. Conventional 3.5 threshold missed both 2021 peaks (3.43 in April); 25% precision."
     }
